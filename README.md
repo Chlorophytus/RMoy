@@ -12,4 +12,4 @@ Initially named "Seven Wonder", I realized that this converged with the famous C
 
 ## Caveats
 - No knob like the CMoy has, computers and other devices have digital OS volume control. Use those.
-- Doesn't fit in an Altoids tin.
+- Doesn't fit in an Altoids tin unless you modify C7.
