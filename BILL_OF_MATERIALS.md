@@ -6,7 +6,7 @@ It is recommended to use a 12V 500mA center-positive power adapter.
 
 ## Capacitors
 
-- `C1`/`C2`: Nichicon UKA1E470MDD - 47µF op-amp input coupling
+- `C1`/`C2`: Nichicon UKA1H101MPD - 100µF op-amp input coupling
 - `C3`/`C4`: Murata RDE5C1H102J0K1H03B - 1nF op-amp pole splitting
 - `C5`/`C6`: Nichicon UKA1V221MPD - 220µF op-amp output coupling
 - `C7`: Chemi-Con EKZN250ELL471MJC5S - 470µF power coupling
