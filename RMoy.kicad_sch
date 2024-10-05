@@ -2236,17 +2236,6 @@
 		)
 		(uuid "f4c8b591-1791-40a5-be45-19ea0726f91c")
 	)
-	(text "DOES NOT WORK WITH NE5532"
-		(exclude_from_sim no)
-		(at 152.4 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a03569e1-b311-480c-aa18-ca958338eafb")
-	)
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 160.02 97.79 0)
