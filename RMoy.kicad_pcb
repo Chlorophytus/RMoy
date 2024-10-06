@@ -85,8 +85,8 @@
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
@@ -139,7 +139,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C6"
-			(at 1.75 -5.25 360)
+			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "05dbf231-6558-48e8-9f2c-88d4e59bf807")
 			(effects
@@ -150,7 +150,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 1.75 5.25 360)
+			(at 1.75 5.25 0)
 			(layer "F.Fab")
 			(uuid "2bbc0a89-1c9f-4af5-bf08-45f3acac33b6")
 			(effects
@@ -1828,7 +1828,7 @@
 			(uuid "b34baaf7-00b9-484b-939c-d37eafc37625")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 360)
+			(at 1.75 0 0)
 			(layer "F.Fab")
 			(uuid "0ecb1906-02c4-4286-bc34-6ceb72d69a86")
 			(effects
@@ -1877,7 +1877,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at 1.75 -5.25 360)
+			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "afd7300f-a957-4f32-b507-dfce16c41b45")
 			(effects
@@ -1888,7 +1888,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 1.75 5.25 360)
+			(at 1.75 5.25 0)
 			(layer "F.Fab")
 			(uuid "567e586a-7e81-4d63-a022-11145b4b4ecd")
 			(effects
@@ -3566,7 +3566,7 @@
 			(uuid "3e5b2886-9b03-46b0-a101-b3beec46d2c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 360)
+			(at 1.75 0 0)
 			(layer "F.Fab")
 			(uuid "4ae418a7-79c8-415a-83a0-b53e279bb4eb")
 			(effects
@@ -3615,7 +3615,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "1ab675e8-835e-4b2c-b743-b70b7bd9e344")
 			(effects
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "b8c451bb-1929-41da-bf56-bfbe8aa3a3e2")
 			(effects
@@ -3841,7 +3841,7 @@
 			(uuid "c28f8d09-e2f8-4077-95d2-2d5d1e206907")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "587eb9c2-c095-4661-9876-22641aba42f7")
 			(effects
@@ -3890,7 +3890,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C4"
-			(at 2.5 -2.5 360)
+			(at 2.5 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "9aa3290a-5bc2-4284-a7b9-51df58a69dfe")
 			(effects
@@ -3901,7 +3901,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 2.5 2.5 360)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "86da1c77-da7d-48b3-979f-4522e5210a27")
 			(effects
@@ -4096,7 +4096,7 @@
 			(uuid "b37c4a3e-503d-448b-ba3a-af3d7cc58dcb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "15768a7a-5269-4acb-afb8-970de7ec5e1b")
 			(effects
@@ -4145,7 +4145,7 @@
 		(descr "Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf")
 		(tags "Power Jack")
 		(property "Reference" "J3"
-			(at 5.75 8.45 360)
+			(at 5.75 8.45 0)
 			(layer "F.SilkS")
 			(uuid "4b17e5dd-b339-4072-b85f-e0defc0fe0fd")
 			(effects
@@ -4156,7 +4156,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at -5.5 6.2 360)
+			(at -5.5 6.2 0)
 			(layer "F.Fab")
 			(uuid "6bf79523-08e0-4e18-9c3b-4259c511b692")
 			(effects
@@ -4942,7 +4942,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "3d1058c5-5078-42f0-9c41-9ba58caaa560")
 			(effects
@@ -4953,7 +4953,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "4f63c061-67d6-471a-ad70-431ad4f62075")
 			(effects
@@ -5168,7 +5168,7 @@
 			(uuid "7a829263-2405-49b6-9322-74c2b4bbf803")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "45948bfa-0fa0-416b-b3a2-9b5f7107b0a5")
 			(effects
@@ -5217,7 +5217,7 @@
 		(descr "TRS 3.5mm, horizontal, through-hole, with switch, circular holes, https://www.cui.com/product/resource/sj1-353xng.pdf")
 		(tags "TRS audio jack stereo horizontal circular")
 		(property "Reference" "J1"
-			(at 0.1 -6.45 90)
+			(at 0.1 14.5 90)
 			(layer "F.SilkS")
 			(uuid "4269d04b-1571-4d49-a5c5-19f97703c9b1")
 			(effects
@@ -7660,7 +7660,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "741ff430-17bc-4f55-bfa3-69d6895fa9b3")
 			(effects
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "ec3f957d-8706-4883-a0fe-f42704c098aa")
 			(effects
@@ -7886,7 +7886,7 @@
 			(uuid "5e941e8f-0f5b-40fa-b9c1-e0f6dff062bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "cbbea872-6868-4359-a8ae-7cc743025c2e")
 			(effects
@@ -7935,7 +7935,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "1d448ce2-cd53-420c-87e1-0ac74b56edca")
 			(effects
@@ -7946,7 +7946,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "96cb295b-d285-464d-8a0a-85548f0a0148")
 			(effects
@@ -8161,7 +8161,7 @@
 			(uuid "e29c7599-35dc-49e5-926b-64c700800200")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "82e4a84e-72a1-4710-8b45-57f5763ded23")
 			(effects
@@ -10082,7 +10082,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C3"
-			(at 2.5 -2.5 360)
+			(at 2.5 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "869fe056-eedd-47f9-ab4f-7884f7dfedc1")
 			(effects
@@ -10093,7 +10093,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 2.5 2.5 360)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "5d6c8893-f218-4dd4-aeba-79a437a3dc59")
 			(effects
@@ -10288,7 +10288,7 @@
 			(uuid "202f77d0-82e5-4e36-95f7-fd14a707e149")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "d956ac94-7b4d-4813-bb41-c2b907d57524")
 			(effects
@@ -12507,7 +12507,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D1"
-			(at 1.27 -3.96 90)
+			(at 1.5 4 90)
 			(layer "F.SilkS")
 			(uuid "3ed5d0d5-4a07-4669-9043-7e5d6895f39c")
 			(effects
@@ -12994,7 +12994,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "ed3d289c-8c4f-409d-9668-b10ba3788f64")
 			(effects
@@ -13005,7 +13005,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "00337c2c-c678-4a04-b399-4e47ac6f3278")
 			(effects
@@ -13220,7 +13220,7 @@
 			(uuid "19d2a30d-930b-4e22-b610-fb11d36d1ba1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "fbe388a1-9316-47fb-9c4f-17a0cf6d0557")
 			(effects
@@ -13544,7 +13544,7 @@
 		(descr "TRS 3.5mm, horizontal, through-hole, with switch, circular holes, https://www.cui.com/product/resource/sj1-353xng.pdf")
 		(tags "TRS audio jack stereo horizontal circular")
 		(property "Reference" "J2"
-			(at 0.1 -6.45 90)
+			(at 0 14.5 90)
 			(layer "F.SilkS")
 			(uuid "364aa610-e54f-48ae-ad01-1d643203850b")
 			(effects
