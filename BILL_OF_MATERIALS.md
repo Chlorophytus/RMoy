@@ -14,10 +14,10 @@ It is recommended to use a 12V 500mA center-positive power adapter.
 
 ## Resistors
 
-- `R1`/`R2` - 270 ohm 1% resistors - path for audio input to ground
-- `R3`/`R4` - 100 ohm 1% resistors - path for feedback to ground
-- `R5`/`R6` - 680 ohm 1% resistors - path for feedback to U1
-- `R7` - 4.7K ohm 5% resistor - LED current limiting resistor
+- `R1`/`R2` - YAGEO MFR-25FBF52-270R - path for audio input to ground
+- `R3`/`R4` - YAGEO MFR-25FBF52-100R - path for feedback to ground
+- `R5`/`R6` - YAGEO MFR-25FBF52-680R - path for feedback to U1
+- `R7` - YAGEO MFR-25FBF52-4K7 - LED current limiting resistor
 
 ## Miscellaneous Components
 
